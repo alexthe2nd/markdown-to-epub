@@ -18,4 +18,4 @@ DONE
 ```npm install markdown-to-html -g```
 
 [pandoc](https://pandoc.org/) for epub conversion. 
-* Install instructions can be found [here](https://pandoc.org/installing.html).
+* Installation instructions can be found [here](https://pandoc.org/installing.html).
