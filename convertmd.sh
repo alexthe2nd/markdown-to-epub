@@ -1,4 +1,5 @@
 #!/bin/bash
+# Strip the filename extension
 OUT="${1%.*}"
 
 # Read title and author
@@ -25,4 +26,5 @@ pandoc -f html -t epub3 --epub-metadata=$OUT-metadata.xml -o $OUT.epub $OUT-web.
 rm $OUT-web.html
 rm $OUT-metadata.xml
 
+# Print output file name
 echo "EPUB FILE SAVED AS \"$OUT.epub\""
