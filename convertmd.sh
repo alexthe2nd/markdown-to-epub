@@ -1,5 +1,5 @@
 #!/bin/bash
-# Strip the filename extension
+# Remove filename extension
 OUT="${1%.*}"
 
 # Read title and author
