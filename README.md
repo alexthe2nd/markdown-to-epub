@@ -3,11 +3,11 @@ Shell script for converting markdown documents to epub.
 
 Call ```convertmd.sh``` with the markdown filename as an argument, then input the document title and its author:
 ``` shell
-./convertmd.sh inputfile.md
-TITLE: [document title]
-AUTHOR: [document author]
+./convertmd.sh README.md
+TITLE: README
+AUTHOR: alexthe2nd
 CONVERTING TO EPUB...
-DONE
+EPUB FILE SAVED AS "README.epub"
 ```
 The output will be an epub file with the same name as the markdown file, along temporary HTML and XML files that will be deleted once the conversion is complete.
 
