@@ -11,3 +11,10 @@ AUTHOR:
 CONVERTING TO EPUB...
 DONE
 ```
+
+## Requirements
+[markdown-to-html](https://www.npmjs.com/package/markdown-to-html) for temporary HTML conversion.
+Install the command line utilities: ```npm install markdown-to-html -g```
+
+[pandoc](https://pandoc.org/) for epub conversion. 
+Install instructions can be found [here](https://pandoc.org/installing.html).
