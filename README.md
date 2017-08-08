@@ -1,8 +1,8 @@
 # markdown-to-epub
 Shell script for converting markdown documents to epub. 
 
-Call it in bash with the filename and its extension as an argument, then input the document title and its author:
-``` bash
+Call it with the filename as an argument, then input the document title and its author:
+``` shell
 ./convertmd.sh inputfile.md
 TITLE: [document title]
 AUTHOR: [document author]
