@@ -1,11 +1,9 @@
 #!/bin/bash
 OUT="${1%.*}"
 
-echo TITLE\:
-read TITLE
-
-echo AUTHOR:
-read AUTH
+# Read title and author
+read -p "TITLE: " -r TITLE
+read -p "AUTHOR: " -r AUTH
 
 echo CONVERTING TO EPUB...
 # Convert markdown to html
