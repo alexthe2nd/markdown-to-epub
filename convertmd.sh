@@ -1,7 +1,7 @@
 #!/bin/bash
 OUT="${1%.*}"
 
-echo BOOK TITLE\:
+echo TITLE\:
 read TITLE
 
 echo AUTHOR:
