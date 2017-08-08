@@ -25,4 +25,4 @@ pandoc -f html -t epub3 --epub-metadata=$OUT-metadata.xml -o $OUT.epub $OUT-web.
 rm $OUT-web.html
 rm $OUT-metadata.xml
 
-echo DONE
+echo "EPUB FILE SAVED AS \"$OUT.epub\""
